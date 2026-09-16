@@ -11,9 +11,13 @@
 ## Repository Structure
 
 ├── data/           # Raw and processed data (not committed — see .gitignore)
+
 ├── code/           # Analysis scripts
+
 ├── output/         # Tables, figures, and results
+
 ├── docs/           # Notes, meeting summaries, documentation
+
 └── README.md
 
 ## Requirements
