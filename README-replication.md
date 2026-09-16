@@ -1,30 +1,33 @@
-# Replication Package: [Insert Project Title]
+# Replication Package: [Longitudinal-Hearing-Aid-Benefits]
 
-This folder contains the code and instructions to replicate the findings of "[Insert Paper Title]" published in [Insert Journal/Venue].
+This folder contains the code and instructions to replicate the findings of "Longitudinal Growth of Mandated Hearing Aid Benefits in the US" published in JAMA-Otolaryngology.
 
 ## Data Availability Statement
-- **Raw Data:** [Specify if data is public, proprietary, or provided in this repo].
-- **Data Access:** [Provide link to Zenodo/OSF/OneDrive or instructions for requesting access].
+- **Raw Data:** Data is public access, available via the Agency for Healthcare Research and Quality (AHRQ), IPUMS USA, and the Social Impact Lab.
+- 
+- **Data Access:** SIL Healthcare Policy Data available at: https://social-impact-lab-sil.github.io/SIL-Data-Repository/Hearing-Healthcare-Policy/
 - **Note:** If using restricted data, the scripts provided here assume you have placed the raw files in the `/data` folder.
 
 ## Software Requirements
-- **Primary Software:** [e.g., Stata 18, R 4.3.2, Python 3.11]
-- **Required Packages/Libraries:** - Stata: `ssc install reghdfe`, `ssc install ftools`
-  - R: `install.packages(c("tidyverse", "fixest"))`
+- **Primary Software:** STATA18
+- **Required Packages/Libraries:** - No additional package requirements
 
 ## Instructions
-1. **Set Directory:** Open `main_file.do` (or `.R`) and update the `global` or `working_directory` path to your local machine.
-2. **Run Analysis:** Execute the scripts in the following order:
-   - `01_clean_data.do`
-   - `02_analysis.do`
-   - `03_generate_figures.do`
-3. **Estimated Run Time:** [e.g., 5 minutes / 2 hours]
+1. **Set Directory:** Open the do file and update directory information. 
+2. **Run Analysis:** All analysis is self contained within one .do file.
+3. **Estimated Run Time:** On supercomputer, full program run takes about 1.5 hours. Off the supercomputing network expect extensive processing time. 
 
 ## List of Tables and Figures
 | Exhibit | Script | Output File |
 | :--- | :--- | :--- |
-| Table 1 | `02_analysis.do` | `tables/table1.tex` |
-| Figure 1 | `03_figures.do` | `figures/map_output.png` |
+| Table 1 | Derived from SIL Policy file. Non-Data
+| Table 2 | Derived from SIL Policy file. Non-Data
+| Table 3 | `allinshearing_2026.Publication.do` | Lines |
+| Table 4 | `allinshearing_2026.Publication.do` | Lines |
+| Figure 1 | `allinshearing_2026.Publication.do` | Lines |
+| eTable 1 | `allinshearing_2026.Publication.do` | Lines |
+| eTable 2 | `allinshearing_2026.Publication.do` | Lines |
+| eTable 3 | `allinshearing_2026.Publication.do` | Lines |
 
 ## Contact
-For questions regarding this replication package, contact [Name] at [Email].
+For questions regarding this replication package, contact [Austin Landini] at [Austin.Landini@gmail.com].
