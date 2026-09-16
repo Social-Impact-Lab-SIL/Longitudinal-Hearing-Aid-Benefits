@@ -9,6 +9,7 @@
 [How has mandated hearing aid coverage in the US changed from 2008 to 2023 by age and economic indicators?]
 
 ## Repository Structure
+
 ├── data/           # Raw and processed data (not committed — see .gitignore)
 ├── code/           # Analysis scripts
 ├── output/         # Tables, figures, and results
