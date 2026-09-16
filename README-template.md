@@ -31,7 +31,9 @@ With access to data sources given below, .do file is self contained and will ful
 ## Data Sources
 
 -MEPS self insurance coverage https://datatools.ahrq.gov/meps-ic
+
 -Hearing Aid Policy Data for download at SIL
+
 -ACS survey level data from IPUMS
 
 
