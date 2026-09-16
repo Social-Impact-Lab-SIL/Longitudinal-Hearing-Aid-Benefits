@@ -1,12 +1,12 @@
-# [Project Title]
+# [Longitudinal Growth of Mandated Hearing Aid Benefits in the US]
 
-**Status:** [Active / Under Review / Published / Archived]  
-**Maintainer:** [Name, SIL role]  
-**Last Updated:** [Month Year]
+**Status:** [Accepted at JAMA-Otolaryngology]  
+**Maintainer:** [Austin Landini, Economic Research Consultant, SIL]  
+**Last Updated:** [September, 2026]
 
 ## Overview
 
-[1–2 sentences describing what this project is and what research question it addresses.]
+[How has mandated hearing aid coverage in the US changed from 2008 to 2023 by age and economic indicators?]
 
 ## Repository Structure
 ├── data/           # Raw and processed data (not committed — see .gitignore)
@@ -17,16 +17,19 @@
 
 ## Requirements
 
-[List the software and packages needed to run this project, e.g., Stata 17, R 4.x, Python 3.x]
+[Stata 18.0]
 
 ## How to Run
 
-[Step-by-step instructions for running the analysis from scratch.]
+With access to data sources given below, .do file is self contained and will fully run. ACS file is large and may require access to supercomputing. 
 
 ## Data Sources
 
-[List the data sources used, where they come from, and any access restrictions.]
+-MEPS self insurance coverage https://datatools.ahrq.gov/meps-ic
+-Hearing Aid Policy Data for download at SIL
+-ACS survey level data from IPUMS
+
 
 ## Contact
 
-[Name] — [email] — Social Impact Lab, University of Missouri
+[Austin Landini] — [Austin.Landini@missouri.edu] — Social Impact Lab, University of Missouri
