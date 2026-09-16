@@ -22,12 +22,12 @@ This folder contains the code and instructions to replicate the findings of "Lon
 | :--- | :--- | :--- |
 | Table 1 | Derived from SIL Policy file. Non-Data
 | Table 2 | Derived from SIL Policy file. Non-Data
-| Table 3 | `allinshearing_2026.Publication.do` | Lines |
-| Table 4 | `allinshearing_2026.Publication.do` | Lines |
-| Figure 1 | `allinshearing_2026.Publication.do` | Lines |
-| eTable 1 | `allinshearing_2026.Publication.do` | Lines |
-| eTable 2 | `allinshearing_2026.Publication.do` | Lines |
-| eTable 3 | `allinshearing_2026.Publication.do` | Lines |
+| Table 3 | `allinshearing_2026.Publication.do` | Lines 978-1058|
+| Table 4 | `allinshearing_2026.Publication.do` | Lines 1282-1291|
+| Figure 1 | `allinshearing_2026.Publication.do` | Lines 447-448, 479-480, 516-517, 550-551, 716-717, 748-749. 781-782 |
+| eTable 1 | `allinshearing_2026.Publication.do` | Lines 354, 651 |
+| eTable 2 | `allinshearing_2026.Publication.do` | Lines 113-114|
+| eTable 3 | `allinshearing_2026.Publication.do` | Lines  |
 
 ## Contact
 For questions regarding this replication package, contact [Austin Landini] at [Austin.Landini@gmail.com].
